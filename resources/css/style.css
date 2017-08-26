@@ -1,0 +1,45 @@
+html{
+  font-family: sans-serif;
+  color: grey;
+}
+
+/*NAVIGATION*/
+
+nav{
+  border: 10px solid green;
+}
+
+/*BANNER*/
+
+.banner{
+  border: 10px solid blue;
+}
+
+/*CAMPUS INFO*/
+.campusinfo{
+  border: 10px solid orange;
+}
+
+/*PROGRAM INFORMATION*/
+.programinfo{
+  border: 10px solid purple;
+}
+
+/*THESIS EXHIBIT*/
+.thesisexhibit{
+  border: 10px solid black;
+}
+
+footer{
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.terms span{
+  padding-top: 16px;
+  display: inline-flex;
+  justify-content: space-between;
+}
