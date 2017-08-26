@@ -1,6 +1,6 @@
 html{
   font-family: sans-serif;
-  color: grey;
+  color: black;
 }
 
 /*NAVIGATION*/
@@ -28,6 +28,33 @@ nav{
 
 .banner{
   border: 10px solid blue;
+  color: charcoal;
+  background-color: grey;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bannerpic{
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.bannertext{
+  display: flex;
+  flex-direction: column;
+}
+
+.bannerbutton{
+  margin-top: 32px;
+  border: 10px solid pink;
+  height: 24px;
+  width: 500px;
+  color:white;
+  /*background-color: ; NEED TO FIND A DRK GRY*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*CAMPUS INFO*/
