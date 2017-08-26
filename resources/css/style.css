@@ -60,6 +60,57 @@ nav{
 /*CAMPUS INFO*/
 .campusinfo{
   border: 10px solid orange;
+  display: flex;
+  padding-bottom: 32px;
+}
+
+.campusinfo img{
+  /*width: 60%;*/
+  margin: 32px 24px;
+}
+
+.infoleft{
+  width: 60%;
+  border: 10px solid teal;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.infoleft h1{
+  margin-bottom: 24px;
+}
+
+.inforight{
+  width: 40%;
+  border: 10px solid yellow;
+  display:flex;
+  flex-direction: column;
+}
+
+.inforight img{
+  width: 35%;
+  height: auto;
+}
+
+.infobox{
+  border: 10px solid firebrick;
+  display: flex;
+  flex-direction: row;
+}
+
+.infotext{
+  width: 65%;
+  border: 10px solid coral;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.infotext a{
+  color: blue;
+  text-decoration: none;
 }
 
 /*PROGRAM INFORMATION*/
