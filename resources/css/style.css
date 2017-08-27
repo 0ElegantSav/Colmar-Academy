@@ -1,5 +1,5 @@
 html{
-  font-family: sans-serif;
+  font-family: 'Mukta Mahee', sans-serif;
   color: black;
 }
 
@@ -36,6 +36,8 @@ nav{
 /*BANNER*/
 
 .banner{
+  max-height: 100%;
+  width: auto;
   border: 10px solid blue;
   color: charcoal;
   background-color: grey;
@@ -45,12 +47,15 @@ nav{
 }
 
 .bannerpic{
+  border: 10px solid white;
+  width: 60%;
+  height: auto;
   margin: 32px 24px;
 }
 
-/*.bannerpic img{
-  width: 60%;
-}*/
+.bannerpic img{
+  border: 10px solid black;
+}
 
 .bannertext{
   display: flex;
@@ -167,10 +172,6 @@ nav{
 }
 
 /*THESIS EXHIBIT*/
-.thesisexhibit{
-  border: 10px solid black;
-  display: flex;
-}
 
 .exhibittext h1{
   border: 10px solid green;
@@ -179,10 +180,27 @@ nav{
   margin: 0px;
 }
 
+.thesisexhibit{
+  border: 10px solid black;
+  display: flex;
+}
+
 .exhibitleft{
   border: 10px solid orange;
   display: flex;
   flex-direction: column;
+}
+
+.exhibitleft h2{
+  margin-top: 24px;
+  margin-left:24px;
+}
+
+.exhibitleft p{
+  width: 60%;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  margin-left: 24px;
 }
 
 .exhibitright{
