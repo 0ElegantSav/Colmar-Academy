@@ -80,20 +80,17 @@ nav{
 
 /*CAMPUS INFO*/
 .campusinfo{
-  border: 10px solid orange;
   background-color: #F5F5F5;
   display: flex;
   padding-bottom: 32px;
 }
 
 .campusinfo img{
-  /*width: 60%;*/
   margin: 32px 24px;
 }
 
 .infoleft{
   width: 60%;
-  border: 10px solid teal;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -101,11 +98,17 @@ nav{
 
 .infoleft h1{
   margin-bottom: 24px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.infotextleft{
+  margin: 0px 24px 32px 24px;
 }
 
 .inforight{
   width: 40%;
-  border: 10px solid yellow;
+  margin-bottom: 32px;
   display:flex;
   flex-direction: column;
 }
@@ -122,8 +125,7 @@ nav{
 }
 
 .infotext{
-  width: 65%;
-  border: 10px solid coral;
+  width:40%;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -131,8 +133,13 @@ nav{
 }
 
 .infotext a{
-  color: blue;
+  color: #1E90FF;
   text-decoration: none;
+  font-weight: bold;
+}
+
+.infotext p{
+  padding: 8px 0px;
 }
 
 /*PROGRAM INFORMATION*/
