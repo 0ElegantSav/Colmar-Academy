@@ -175,6 +175,37 @@ nav{
   padding: 8px 0px;
 }
 
+@media only screen and (max-width: 480px)and (orientation: portrait){
+  .infoleft {
+    border: 1px solid red;
+    display: none; /*hides content on smartphone screen*/
+  }
+
+  .inforight{
+    border: 1px solid orange;
+    width: 100%;
+  }
+
+  .infobox{
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infobox img{
+    width: 400px;
+    height: 200px;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+
+  .infotext{
+    margin-left: 32px;
+    margin-bottom: 64px;
+  }
+
+}
+
 /*PROGRAM INFORMATION*/
 .programinfo{
   background-color: #DCDCDC;
