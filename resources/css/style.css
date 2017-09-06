@@ -204,6 +204,14 @@ nav{
     margin-bottom: 64px;
   }
 
+  .infotext h2{
+    margin-left: 16px;
+  }
+
+  .infotext p{
+
+  }
+
 }
 
 /*PROGRAM INFORMATION*/
@@ -251,6 +259,23 @@ nav{
   background-color: white;
 }
 
+@media only screen and (max-width: 480px)and (orientation: portrait){
+
+.coursebox{
+  border: 1px solid blue;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.coursebox img{
+  display: none;
+}
+
+.courseboxtext p{
+  display: none;
+}
+
+}
 
 /*THESIS EXHIBIT*/
 
@@ -295,6 +320,26 @@ nav{
   margin: 16px;
 }
 
+@media only screen and (max-width: 480px)and (orientation: portrait){
+
+.exhibitright{
+  display: none;
+}
+
+.exhibitleft h2{
+  display: none;
+}
+
+.exhibitleft p{
+  display: none;
+}
+
+.exhibitleft video{
+  height: auto;
+}
+
+}
+
 footer{
   padding-top: 16px;
   padding-left: 24px;
@@ -302,8 +347,24 @@ footer{
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 480px)and (orientation: portrait){
+
+footer{
+  padding: 16px 0px;
+  margin-top: 24px;
+}
+}
+
 .terms span{
   padding-top: 16px;
   display: inline-flex;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 480px)and (orientation: portrait){
+
+.terms{
+  display: none;
+}
+
 }
