@@ -38,8 +38,26 @@ nav{
   margin-left: 16px;
 }
 
+.navimages{
+  display: none;
+}
+
 @media only screen and (max-width: 480px)and (orientation: portrait){
 
+.navimages{
+  width: 150%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navimages img{
+  display: flex;
+  height: 40px;
+}
+
+.logo img{
+  display: none;
+}
 
 .logo h2{
   display: none;
